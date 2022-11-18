@@ -1,0 +1,349 @@
+/////////// Props For Common Components Section ///////////
+
+
+
+// About.js
+
+
+
+1.aboutPlaceholder:Placeholder for About Field Default:Short Engaging Pitch about
+Yourself.
+2. aboutStyle :Style For About Text
+3. maxW: maximum Width For About Field default:230px,
+4.minW:minimum Width For About Field default:230px,
+5.margin:For About Field
+// Certificate.js
+1.certificate:if value of certificate is true it will initialize certificate field
+default:false,
+2.issueDate:if value of IssueDate is true it will initialize IssueDate field
+default:false,
+3.institute:if value of institute is true it will initialize institute field
+default:false,
+4.certificatePlaceholder:Placeholder For Certificate default:Certificate Name
+5.isssueDatePlaceholder:Placeholder For IssueDate default:Issue Date
+6.certificateStyle:Stying For Certificate Field
+7.issueDateStyle:Styling For IssueDate Field
+8.parentContainerStyle:Style For Parent Container
+9.childContainerStyle:Style For Child Container e.g Every Dnd Section
+10.iconShow:if value of iconShow is true it will initialize icon horizontal
+11.icon:For Icon
+For 10 and 11 props check path:templates/flightAttendant1 Template
+
+
+
+// Contact //
+
+
+
+1.emailPlaceholder:Placeholder for email Field default:E-mail
+2.phonePlaceholder:Placeholder for phone Field default:Phone
+3.websitePlaceholder:Placeholder For website Field default:Website
+4.locationPlaceholder:Placeholder For Location Field default:location
+5.email:if value of email is true it will initialize email field default :false
+6.phone:if value of phone is true it will initialize phone Field dafault:false
+7.website :if value of website is true it will initialize website Field default:false
+8.location:if value of location is true it will inittializw location field default:false
+9.heading:if heading is true it will initialize contact field with heading
+e.g Email:emailPlaceholder
+Email: is heading
+10.style: Style for all contact field
+11.heading Style :Style for all heading 
+12.circleIcon :if value of circleIcon is true, it will initialize icon With circle 
+instead  of heading 
+For demo :Check flightAttendant1 and fashionTemp4 Template 
+13.circleSize:Size of Circle default:none
+14.cirlceBg:Background of Circle default:none
+15.circleBorderW:border of width of Circle default:none
+16.circleBorderColor:color of border default:none
+17.iconColor:color of icon default:black
+18.iconSize:size of icon default:16px
+19.parentDirection:direction of all contacts field defalut:column
+For demo Check hybridTemplate and fashionTemp1
+20.direction:direction of heading or icon with field text default :row
+21.justifyContent:justify content for parent default:none
+22.alignItem:alignItem for parent default:none
+
+
+
+//Eduction
+
+
+
+1. parentContainerStyle:style for parent Container
+2.childContainerStyle:style for child Container e.g every dnd Field
+3.degree_placeholder:placholder For Degree default:Degree
+4.institution_placeholder:Placeholder For Institution default:Universtiy/institute
+5.startDate_placeholder:Placholder For StartDate default:From
+6.endDate_placeholder:Placeholder For EndDate default:End
+7.summary_placeholder:Placeholder For Summary default:Short Description
+8.extracurricular_placeholder:Placeholder For Extracuricular Activity Field
+default:Extrat Curricular
+9.location_placeholder:Placeholder For Location default:location
+10.dateStyle :Style For Date Field
+11.institutionStyle:Style For Institution Field
+12.degreeStyle:Style For degree Field
+13.summaryStyle:Style For summary Field
+14.extracurricularStyle:Style For extracurricular Field
+15.locationStyle:Style For location Field
+16.degree:if value of degree is true it will initialize degreeField default:false
+17.institution:if value of institution is true it will intialize institute field 
+default:false
+18.date:if valut of date is true it will initialize date field defaut:false
+19.summary :if value of summary is true it will intialize summary field default:false
+20.location:if value of location is true it will initailze locatiion Field default:
+false
+21.extracurricular:if value extracurricular is true, it will initialze extracurricutlar
+field default :false
+22.dateDirection:it used for the direction of date defalut:row
+e.g From -End (for row)
+From
+End
+for(column)
+
+
+
+// interest
+
+
+
+1.dndDirection:it is used for the duplication of section which direction use want to
+2.duplicate filed defalut:column
+3.interestPlaceholder:Placeholder For Interest Field
+4.interestStyle:Style for Interst style
+5.parentContainerStyle:Style for parent Container
+6.childContainerStyle:Style for child Container
+
+
+
+//Languages
+
+
+
+1.langPlaceholder:Placeholder For Language Field
+2.langStyle:Style for language filed
+3.minW:minimam width defalut:none 
+4.maxW:maximum width defaut:none
+5rating:if rating is true it will initalize lang field with rating star default:false
+6.ratingIconColor:it is used for the color of icon default:blue
+7.progressBar:if progressBar is true it will intialize progressBar 
+8.strokeColor:it used for the color progresStrokeColor default:black
+9.strokeWidth:it used for the width of progresBar default:6
+10.trailColor:it used for the color of trail default:gray
+11.trailWidth:it used for width of color defaut:2px
+12.direction:it used for the direction of field with rating or progressBar 
+default:row
+13.lineStyle:it used to style for progressBar style
+14.minWText:it used for the minimum width of language text 
+15.maxWText:it used for the maximum width of language Text
+Note: minWText and maxWText is only work when one of them in rating and progressBar
+is true
+
+
+
+//Name
+
+
+
+1.FName:if value of FName is true it will intialize Fname Field default:false
+2.SName:if value of SName is true it will intialize SName Filed default:false
+3.FNameStyle:it used for the style of FName field 
+4.SNameStyle:it used for the Style of SName Field
+5.FNamePlaceholder:Placeholder for FName default: First Name
+6.SNamePlacholder: Placeholder for SName default:Second Name
+7.direction:it used for the direction of both Name default:column
+8.parentContainerStyle:Style used For ParentContaniner
+9.margin :margin for parent Container
+
+
+
+// Organization
+
+
+
+1.parentContainerStyle:Style for parent Container
+2.childContainerStyle:Style for child Container
+3.organization:it used to initialize orgainzation field default:false
+4.date:it used to intialize date field default:false
+5.role:it used to initialize role field default:false
+6.organizationPlaceholder:Placeholder used for organization field 
+default:Organization Name
+7.startDatePlaceholder:Placeholder used for startDate default:startDate
+8.endDatePlaceholder:Placeholder used for endDate default:endDate
+9.rolePlaceholder:Placeholder used for role Field default:Role
+10.organizationStyle:Style used for organization field
+11.dateStyle :style used for date fields
+12.roleStyle:Style used For roleField
+// Profession
+1.professionPlaceholder:Placeholder used for profession default:Profession
+2.professionStyle:Style used for professionStyle
+3.containerStyle:Style for professionContainer
+4.margin :margin used for parent container
+
+
+
+//Project
+
+
+
+1.project :it used to initialize the field of project default:false
+2.summary:it used to initialize field of summary default:false
+3.duration:it used to initialize field of project duration
+4.projectPlaceholder:Placeholder used for Project field default:Project Name
+5.summaryPlaceholder:Placeholder used for summary field 
+default:Project Summary
+6.durationPlaceholder:Placeholder used for duration Field default:Duration 
+7.projectStyle:Style used for project field
+8.summaryStyle:Style used for summary field
+9.durationStyle:Style used for duration field
+10.childContainerStyle:Style used for child Container
+11.parentContainerStyle:Style used for parent Contanier
+
+
+
+// Reference
+
+
+
+1.DndDirection:direciton of Dnd default:veritical
+2.name:it used to initialize name of refere field default:false
+3.profession:it used to initialize profession of refer field default:false
+4.address:it used to initialize address field default:false
+5.email:it used to initialize email field defaut:false
+6.phone:it used to initialize phone field default :false
+7.namePlaceholder:placeholder used for name field default:Name
+8.professionPlaceholder:placeholder used for profession Field default:Profession
+9.addressPlaceholder:placeholder used for address field default:Address
+10.phonePlaceholder:placeholder used for phone number field default:Phone
+11.emailPlaceholder:Placeholder used for email Placeholder default:E-mail
+12.nameStyle:Style used for name field
+13.professionStyle:Style used for profession field
+14.phoneStyle:Style used for phone field
+15.emailStyle:Style used for email field 
+16.addressStyle:Style used for address field
+17.parentContanier:Style used for parent Container
+18.childContainer:Style used for child Container
+19.minW:minimum width for all section 
+20.maxW:maximum Width for all Section
+Note:minW maxW is only work when dnd direction is horizontal 
+
+
+
+// RowSkill
+
+
+
+1.height:height of skill field default:32px
+2.borderReadius:radius of skill field box default:Chakra 6
+3.margin:margin of skill field box default: chakra 0.4
+4.skillStyle:Style used for skill field
+5.skill Placeholder:Placeholder used for skill field default:Skill
+6.parentContainerStyle:style used for parent container
+7.childContainerStyle:style used for child container
+Note:Row Skill is used only in novoresume template
+for other template used Skill Section
+
+
+
+// Skill
+
+
+
+1.skillPlaceholder:placeholder used for skill field default:skill
+2.skillStyle:style used for skill filed
+3.percentageStyle:style used for percentage filed
+4.parentContainerStyle:style used for parentContainerStyle
+5.childContainerStyle:style used for child Contanier
+6.minW:minimam width for container defalut:none 
+7.maxW:maximum width for container defaut:none
+8rating:if rating is true it will initalize skill field with rating star default:false
+9.ratingIconColor:it is used for the color of icon default:blue
+10.progressBar:if progressBar is true it will intialize progressBar default:false 
+11.strokeColor:it used for the color progresStrokeColor default:black
+12.strokeWidth:it used for the width of progresBar default:6
+13.trailColor:it used for the color of trail default:gray
+14.trailWidth:it used for width of color defaut:2px
+15.direction:it used for the direction of field with rating or progressBar 
+default:row
+16.lineStyle:it used to style for progressBar style
+17.minWText:it used for the minimum width of skill field default:130px 
+18.maxWText:it used for the maximum width of skill field default:130px
+Note:minWText and maxWText is work only when one of them
+of rating and progress bar is true.
+
+
+
+// Work Experience 
+
+
+
+1.postion:it used to initialized position field default:false
+2.companty:it used to initialized company field default:false
+3.date:it used to initialized date field default:false
+4.summary:it used to initialized summary field default:false
+5.location:it used to initialized location field default:false
+6.parentContainerStyle:style used for parent Container
+7.childContanerStyle:Style used for child Container
+8.postionStyle:style used for positon field
+9.companyStyle:style used for company field
+10.dateStyle:style used for date field 
+11.summaryStyle:style used for summary field
+12.locationStyle:style used for locationfield
+13.position_placeholder:placeholder used for position field default:Title/Position
+14.company_placeholder:placeholder used for company field default:WorkPlace/Company
+15.startDate_placeholder:Placeholder used for start Date default:From
+16.endDate_placeholder:placeholder used for end Date default:End
+17.summary_placeolder:placeholder used for summary Field default:Short Description
+18.location_placeholder:placeholder used for location field default:Location
+19.dateDirection:it used for the direction of date defalut:row
+e.g From -End (for row)
+From
+End
+for(column)
+
+
+
+// Heading
+
+
+
+1.title:it used for the title of heading
+2.headBg: it used for the heading background Color default:none
+3.color:it used to for the color of text default:black
+4.fontSize:it used for the size of font default:20
+5.fontWeight:it used for the font weight of title default:500
+6.letterSpacing:it used for the spaceBetween b/w word of title default:none
+7.textMargin:it used for the margin of title default:none
+8.textPadding:it used for the padding of title default:none
+9.minW:minimum Width used for heading container default:250
+10.maxW:maximum Width used for heading container default:250
+11.height:it used for the height of heading default :35
+12.padding:it used for the padding of heading Container default:None
+13.margin:it used for the margin of heading Contaniner default:none
+14.borderTop:it used for the border Top of heading Container
+15.borderBottom:it used for the borderBottom of heading Container default:none
+16.borderRight:it used for the  borderRight of heading Container default:none
+17.borderLeft:it used for the borderLeft of heading container default:none
+18.borderRadius:it used for border Radius of heading Container default:none
+19.iconHeading:if icon heading is true it will intialize heading with
+icons
+20.icon :it used to pass icon 
+21.circleIconHeading:if circleIconHeading is true it will intialize 
+heading with icon and circle
+22.circleSize:it used for size of circle default:none
+23.circleBg:it used for background color of circle default:none
+24.circleBorderW:it used for width of circle border default:none
+25.circleBorderColor:it used for the color of border Width default:none
+Note:all circle properties work when circleIconHeading is true
+26.line:if line is true it will intialize line below heading
+27.lineW:it used for the width of line default:full
+28.lineH:it used for the height of line default:1.5
+29.lineBg:it used for the background Color of line
+30.lineAlign:it used for the align of line (alignSelf) 
+default:flex-start
+31.onSideSectionShow :it use for onclick when user click on heading
+ 
+
+Note:All Style props accept css Class
+
+
+RegardBy:Muhammad Abubakar Raza
