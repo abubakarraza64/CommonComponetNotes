@@ -137,7 +137,8 @@ default:row
 15.maxWText:it used for the maximum width of language Text
 Note: minWText and maxWText is only work when one of them in rating and progressBar
 is true
-
+16.langContainerStyle:it used for parent Container 
+17.childContainerStyle:it used for child Container
 
 
 //Name
